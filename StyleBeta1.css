@@ -497,3 +497,28 @@ body {
 .text h1 {
    text-align: center;
 }
+
+#Error {
+    text-align: center;
+    font-size: 50px;
+    font-family:"Exo 2" ;
+    color: white;
+    margin-top: 50px;
+    display: block;
+}
+
+#Error {
+    transition: 0.5s;
+}
+
+#Error p {
+    transition: 0.5s;
+}
+
+#Error:hover {
+    transform: scale(1.1);
+}
+
+#Error p:hover {
+    color: #c68282;
+}
