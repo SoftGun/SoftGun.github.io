@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Exo+2');
 @import url('https://fonts.googleapis.com/css?family=Luckiest+Guy');
 @import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+
+
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -141,7 +147,7 @@ body {
     display: block;
     top: 0;
     left: 0;
-    border: solid 1px;
+    border: solid 0px;
 }
 
 #navigation {z-index: 3}
@@ -171,6 +177,8 @@ body {
 #navigation ul li {
     transition: 0.7s;
 } 
+
+
 
 
 #header {
@@ -291,7 +299,7 @@ body {
     font-size: 400%;
     margin-top: 90px;
     text-transform: uppercase;
-    font-family: "Luckiest Guy"
+    font-family: "Righteous"
 }
 
 
@@ -304,23 +312,25 @@ body {
     display: block;
     bottom: 0;
     left: 0;
-    border: solid 3px;
+    border: solid 0px;
 }
 
 
 #footer ul li {
-    float: left;
+    float: right;
     position: relative;
+    margin-right: 10%
 }
 
 #footer ul li a {
     color: #fff;
-    padding: 0 15px;
+    padding: 0px;
     font-family: "Exo 2", sans-serif;
     text-decoration: none;
     line-height: 65px; 
     display: block;
     height: 65px;
+    
 }
 
 #footer ul li:hover {
@@ -358,12 +368,13 @@ body {
 
 .title {
     position: absolute;
-    right: 500px;
+    margin-left: 36%;
     top: 10px;
-    font-family: "Luckiest guy";
+    font-family: "Righteous";
     font-size: 40px;
     color: coral;
     display: block;
+    
 }
 
 .title:hover {
@@ -378,6 +389,7 @@ body {
     padding-left:35px; ;
     padding-right:35px; ;
     color: #ccb5b5;
+    box-shadow: 0 0, -0.3em 0 2em black;
 }
 
 .Econtent img {
@@ -521,4 +533,12 @@ body {
 
 #Error p:hover {
     color: #c68282;
+}
+
+.Instagramm {
+    font-family: "Muli";
+    font-size: 30px;
+    margin-top: 7px;
+    float: right;
+    margin-right: 20px;
 }
