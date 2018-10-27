@@ -389,7 +389,7 @@ body {
     padding-left:35px; ;
     padding-right:35px; ;
     color: #ccb5b5;
-    box-shadow: 0 0, -0.3em 0 2em black;
+    
 }
 
 .Econtent img {
@@ -501,6 +501,7 @@ body {
     background: #393535;
     border: none;
     height: 1600px ;
+    box-shadow: 0 0, -0.3em 0 2em black;
 }
 
 
