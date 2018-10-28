@@ -75,7 +75,7 @@ body {
     */
     
     
-    background: #403e3e ; /* Но так записывать намного проще*/
+    background: #b4afaf ; /* Но так записывать намного проще*/
     height: ;
     position: relative;
 }
@@ -141,7 +141,7 @@ body {
 
 #navigation {
     height: 65px;
-    background: #262525;
+    background: #f2ebeb;
     width: 100%;
     position: fixed;
     display: block;
@@ -189,7 +189,7 @@ body {
 
 
 #content {
-    background: #393535;
+    background: #f0e4e4;
     border: none;
     height: 1170px ;
     box-shadow: 0 0, -0.3em 0 2em black;
@@ -228,7 +228,7 @@ body {
     margin: auto;
     border: none;
     margin-top: 20px;
-    background: #3e3c3c;
+    background: #e5cccc;
     height: 310px;
     transform: scale(0.9);
     float: left;
@@ -238,10 +238,11 @@ body {
        /*     border-bottom-left-radius: 40px;
             border-top-right-radius: 40px;  
         */
+    border-radius: 20px;
 }
 
 .block:hover {
-    background: #4a4747;
+    background: #dbb9b9;
     
     
    -webkit-transform: scale(1.05);
@@ -261,7 +262,7 @@ body {
     margin-top: -5px;
     text-align: center;
     visibility: ;
-    color: #3e3c3c;
+    color: transparent;
     width: 100%;
 }
 .block:hover h1{
@@ -306,13 +307,13 @@ body {
 
 #footer {
     height: 45px;
-    background: #262525;
+    background: #cca5a5;
     width: 100%;
     position: fixed;
     display: block;
     bottom: 0;
     left: 0;
-    border: solid 0px;
+    border: #cca5a5 solid 1px ;
 }
 
 
@@ -372,7 +373,7 @@ body {
     top: 10px;
     font-family: "Righteous";
     font-size: 40px;
-    color: coral;
+    color: black;
     display: block;
     
 }
@@ -515,7 +516,7 @@ body {
     text-align: center;
     font-size: 50px;
     font-family:"Exo 2" ;
-    color: white;
+    color: black;
     margin-top: 50px;
     display: block;
 }
@@ -542,4 +543,47 @@ body {
     margin-top: 7px;
     float: right;
     margin-right: 20px;
+}
+
+
+
+.uvaga {
+    text-align: center;
+    animation-iteration-count: infinite;
+    animation-name: uvaga;
+    animation-duration: 1.5s;
+}
+
+@keyframes uvaga {
+    from {
+        transform: scale(1);
+    }
+    
+    50% {
+        transform: scale(1.15);
+    }
+    
+    to {
+        transform: scale(1);
+    }
+}
+
+.AnimationBack {
+    animation-name: Back;
+    animation-iteration-count: infinite;
+    animation-duration: 0.6s;
+}
+
+@keyframes Back {
+    from {
+        color: black;
+    }
+    
+    50% {
+        color: red;
+    }
+    
+    to {
+        color: black;
+    }
 }
