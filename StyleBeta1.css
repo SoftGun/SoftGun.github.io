@@ -264,9 +264,10 @@ body {
     visibility: ;
     color: black;
     width: 100%;
+    
 }
 .block:hover h1{
-    color: black;  /* Да. После hover также можно вписывать элемент...*/
+    color: black;  /* Да. После hover также можно вписывать элемент...*/            
     }
 
 .block h1 {
@@ -587,3 +588,58 @@ body {
         color: black;
     }
 }
+
+#Home {
+    width: 50px;
+    float: left;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    left: 30%;
+    position: relative;
+    display: block;
+    
+}
+
+#Home a {
+    display: block;
+    padding-right: 10px;
+}
+
+#Home {
+    animation-iteration-count: infinite;
+    animation-name: HomeIcon;
+    animation-duration: 4s;
+}
+
+
+@keyframes HomeIcon {
+    from {
+        transform: rotate(0deg);
+    }
+    
+    
+    16% {
+        transform: rotate(15deg);
+        
+    }
+    
+    32% {
+        transform: rotate(-15deg)
+    }
+    
+    41% {
+        transform: rotate(0deg);
+        transform: scale(1)
+    }
+    
+    
+    
+    
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+
+
+
