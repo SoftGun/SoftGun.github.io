@@ -390,7 +390,8 @@ body {
 .Econtent {
     padding-left:35px; ;
     padding-right:35px; ;
-    color: #ccb5b5;
+    /*color: #ccb5b5;*/
+    color: black;
     
 }
 
@@ -412,7 +413,7 @@ body {
     text-align: center;
     padding-top: 40px;
     padding-bottom: 40px;
-    color: antiquewhite;
+    color: black;
 }
 .Econtent li {
     list-style-type: square;
@@ -500,7 +501,7 @@ body {
 
 
 #content1 {
-    background: #393535;
+    background: #f0e4e4;
     border: none;
     height: 1600px ;
     box-shadow: 0 0, -0.3em 0 2em black;
